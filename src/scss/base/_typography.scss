@@ -1,0 +1,30 @@
+body {
+  font-family: var(--font-body);
+  color: var(--color-text);
+  line-height: 1.6;
+}
+
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+  line-height: 1.1;
+  letter-spacing: -.03em;
+}
+
+
+h1 {
+  font-size: clamp(2.5rem, 5vw, 5rem);
+}
+
+
+h2 {
+  font-size: clamp(2rem, 3vw, 3rem);
+}
+
+
+p {
+  color: var(--color-muted);
+  max-width: 65ch;
+}
