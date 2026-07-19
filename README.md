@@ -10,7 +10,7 @@ Live site: https://megankuhn.com
 
 ## License
 
-Source code: MIT License
+The source code for this project is licensed under the MIT License.
 
-Portfolio content, case studies, written materials, designs, images, and branding:
+All portfolio content, including case studies, written materials, designs, images, and branding:
 Copyright © Megan Kuhn. All rights reserved.
