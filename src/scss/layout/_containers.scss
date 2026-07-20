@@ -1,0 +1,19 @@
+body {
+  background: var(--color-bg);
+  min-height: 100vh;
+}
+
+.wrapper {
+  width: min(90%, 1200px);
+  margin-inline: auto;
+}
+
+.container {
+  background: var(--color-surface);
+  border-radius: var(--radius-md);
+  padding: 6vh 6vw;
+
+  &--shadow {
+      box-shadow: var( --shadow-md);
+  }
+}
