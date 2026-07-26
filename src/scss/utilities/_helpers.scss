@@ -1,5 +1,13 @@
-.text--center {
-    text-align: center;
+@use "../abstracts/_mixins";
+
+.text {
+    &--center {
+        text-align: center;
+    }
+}
+
+.layout--constrained {
+    max-width: var(--bp-md);
 }
 
 .layout--center-x {
@@ -18,3 +26,6 @@
   align-items: center;
 }
 
+.list-reset {
+  @include mixins.list-reset;
+}
