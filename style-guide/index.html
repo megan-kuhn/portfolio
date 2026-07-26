@@ -1,0 +1,443 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Style Guide</title>
+  </head>
+
+  <body>
+    <main>
+      <div class="wrapper">
+        <!-- Intro -->
+        <section class="layout--constrained">
+          <h1>Style Guide</h1>
+          <p>
+            A curated collection of design tokens and interface elements that define a cohesive visual language and
+            provide the foundation for thoughtful, consistent digital experiences.
+          </p>
+        </section>
+
+        <!-- COLORS -->
+        <section class="container container--with-bg container--with-border container--shadow-md">
+          <h2>Color Swatches</h2>
+          <hr />
+
+          <h3>Primitives</h3>
+
+          <ul class="color-grid" aria-label="Primaries">
+            <li class="swatch">
+              <div class="swatch__color" style="background: var(--color-primary-1)"></div>
+              <span class="swatch__name">Primary 1</span>
+              <code>#F4F5FB</code>
+            </li>
+            <li class="swatch">
+              <div class="swatch__color" style="background: var(--color-primary-2)"></div>
+              <span class="swatch__name">Primary 2</span>
+              <code>#E4E7F4</code>
+            </li>
+            <li class="swatch">
+              <div class="swatch__color" style="background: var(--color-primary-3)"></div>
+              <span class="swatch__name">Primary 3</span>
+              <code>#8B96C7</code>
+            </li>
+            <li class="swatch">
+              <div class="swatch__color" style="background: var(--color-primary-4)"></div>
+              <span class="swatch__name">Primary 4</span>
+              <code>#414C85</code>
+            </li>
+            <li class="swatch">
+              <div class="swatch__color" style="background: var(--color-primary-5)"></div>
+              <span class="swatch__name">Primary 5</span>
+              <code>#252B52</code>
+            </li>
+          </ul>
+
+          <ul class="color-grid" aria-label="Secondaries">
+            <li class="swatch">
+              <div class="swatch__color" style="background: var(--color-secondary-1)"></div>
+              <span class="swatch__name">Secondary 1</span>
+              <code>#F2F8F7</code>
+            </li>
+            <li class="swatch">
+              <div class="swatch__color" style="background: var(--color-secondary-2)"></div>
+              <span class="swatch__name">Secondary 2</span>
+              <code>#DDEBE8</code>
+            </li>
+            <li class="swatch">
+              <div class="swatch__color" style="background: var(--color-secondary-3)"></div>
+              <span class="swatch__name">Secondary 3</span>
+              <code>#73AAA1</code>
+            </li>
+            <li class="swatch">
+              <div class="swatch__color" style="background: var(--color-secondary-4)"></div>
+              <span class="swatch__name">Secondary 4</span>
+              <code>#376F68</code>
+            </li>
+            <li class="swatch">
+              <div class="swatch__color" style="background: var(--color-secondary-5)"></div>
+              <span class="swatch__name">Secondary 5</span>
+              <code>#213F3B</code>
+            </li>
+          </ul>
+
+          <ul class="color-grid" aria-label="Tertiaries">
+            <li class="swatch">
+              <div class="swatch__color" style="background: var(--color-tertiary-1)"></div>
+              <span class="swatch__name">Tertiary 1</span>
+              <code>#FBF6F2</code>
+            </li>
+            <li class="swatch">
+              <div class="swatch__color" style="background: var(--color-tertiary-2)"></div>
+              <span class="swatch__name">Tertiary 2</span>
+              <code>#EEDDD2</code>
+            </li>
+            <li class="swatch">
+              <div class="swatch__color" style="background: var(--color-tertiary-3)"></div>
+              <span class="swatch__name">Tertiary 3</span>
+              <code>#C98E76</code>
+            </li>
+            <li class="swatch">
+              <div class="swatch__color" style="background: var(--color-tertiary-4)"></div>
+              <span class="swatch__name">Tertiary 4</span>
+              <code>#805044</code>
+            </li>
+            <li class="swatch">
+              <div class="swatch__color" style="background: var(--color-tertiary-5)"></div>
+              <span class="swatch__name">Tertiary 5</span>
+              <code>#472A24</code>
+            </li>
+          </ul>
+
+          <ul class="color-grid" aria-label="Neutrals">
+            <li class="swatch">
+              <div class="swatch__color" style="background: var(--color-neutral-1)"></div>
+              <span class="swatch__name">Neutral 1</span>
+              <code>#F6F7FA</code>
+            </li>
+            <li class="swatch">
+              <div class="swatch__color" style="background: var(--color-neutral-2)"></div>
+              <span class="swatch__name">Neutral 2</span>
+              <code>#ECF0F5</code>
+            </li>
+            <li class="swatch">
+              <div class="swatch__color" style="background: var(--color-neutral-3)"></div>
+              <span class="swatch__name">Neutral 3</span>
+              <code>#B0BCCE</code>
+            </li>
+            <li class="swatch">
+              <div class="swatch__color" style="background: var(--color-neutral-4)"></div>
+              <span class="swatch__name">Neutral 4</span>
+              <code>#566479</code>
+            </li>
+            <li class="swatch">
+              <div class="swatch__color" style="background: var(--color-neutral-5)"></div>
+              <span class="swatch__name">Neutral 5</span>
+              <code>#1E293B</code>
+            </li>
+          </ul>
+
+          <ul class="color-grid" aria-label="Interactive colors">
+            <li class="swatch">
+              <div class="swatch__color" style="background: var(--color-interactive-default)"></div>
+              <span class="swatch__name">Interactive Default</span>
+              <code>#485bc4;</code>
+            </li>
+            <li class="swatch">
+              <div class="swatch__color" style="background: var(--color-interactive-hover)"></div>
+              <span class="swatch__name">Interactive Hover</span>
+              <code>#293F99</code>
+            </li>
+            <li class="swatch">
+              <div class="swatch__color" style="background: var(--color-interactive-active)"></div>
+              <span class="swatch__name">Interactive Active</span>
+              <code>#252B52</code>
+            </li>
+            <li class="swatch">
+              <div class="swatch__color" style="background: var(--color-interactive-visited)"></div>
+              <span class="swatch__name">Interactive Visited</span>
+              <code>#7E75AC</code>
+            </li>
+            <li class="swatch">
+              <div class="swatch__color" style="background: var(--color-interactive-focus)"></div>
+              <span class="swatch__name">Interactive Focus</span>
+              <code>#485bc4;</code>
+            </li>
+          </ul>
+
+          <h3>Tokens</h3>
+
+          <h3>Tokens</h3>
+
+          <ul class="color-grid" aria-label="Accent colors">
+            <li class="swatch">
+              <div class="swatch__color" style="background: var(--color-accent-1)"></div>
+              <span class="swatch__name">Accent 1</span>
+              <code>Primary 3</code>
+            </li>
+            <li class="swatch">
+              <div class="swatch__color" style="background: var(--color-accent-2)"></div>
+              <span class="swatch__name">Accent 2</span>
+              <code>Secondary 3</code>
+            </li>
+            <li class="swatch">
+              <div class="swatch__color" style="background: var(--color-accent-3)"></div>
+              <span class="swatch__name">Accent 3</span>
+              <code>Tertiary 3</code>
+            </li>
+          </ul>
+
+          <ul class="color-grid" aria-label="Text colors">
+            <li class="swatch">
+              <div class="swatch__color" style="background: var(--color-text)"></div>
+              <span class="swatch__name">Text</span>
+              <code>Neutral 5</code>
+            </li>
+            <li class="swatch">
+              <div class="swatch__color" style="background: var(--color-text-muted)"></div>
+              <span class="swatch__name">Text Muted</span>
+              <code>Neutral 4</code>
+            </li>
+            <li class="swatch">
+              <div class="swatch__color" style="background: var(--color-text-inverted)"></div>
+              <span class="swatch__name">Text Inverted</span>
+              <code>Neutral 1</code>
+            </li>
+            <li class="swatch">
+              <div class="swatch__color" style="background: var(--color-text-mark)"></div>
+              <span class="swatch__name">Text Mark</span>
+              <code>Tertiary 2</code>
+            </li>
+          </ul>
+
+          <ul class="color-grid" aria-label="Background colors">
+            <li class="swatch">
+              <div class="swatch__color" style="background: var(--color-bg-1)"></div>
+              <span class="swatch__name">Background 1</span>
+              <code>Neutral 1</code>
+            </li>
+            <li class="swatch">
+              <div class="swatch__color" style="background: var(--color-bg-2)"></div>
+              <span class="swatch__name">Background 2</span>
+              <code>Neutral 2</code>
+            </li>
+            <li class="swatch">
+              <div class="swatch__color" style="background: var(--color-bg-3)"></div>
+              <span class="swatch__name">Background 3</span>
+              <code>Neutral 3 / 25% alpha</code>
+            </li>
+          </ul>
+
+          <ul class="color-grid" aria-label="Border and shadow colors">
+            <li class="swatch">
+              <div class="swatch__color" style="background: var(--color-border)"></div>
+              <span class="swatch__name">Border</span>
+              <code>Neutral 3 / 15% alpha</code>
+            </li>
+            <li class="swatch">
+              <div class="swatch__color" style="background: var(--color-shadow)"></div>
+              <span class="swatch__name">Shadow</span>
+              <code>Neutral 3 / 10% alpha</code>
+            </li>
+          </ul>
+
+          <ul class="color-grid" aria-label="State colors">
+            <li class="swatch">
+              <div class="swatch__color" style="background: var(--color-focus)"></div>
+              <span class="swatch__name">Focus</span>
+              <code>Interactive Focus</code>
+            </li>
+            <li class="swatch">
+              <div class="swatch__color" style="background: var(--color-disabled)"></div>
+              <span class="swatch__name">Disabled</span>
+              <code>Text Muted</code>
+            </li>
+          </ul>
+        </section>
+
+        <!-- TYPOGRAPHY -->
+        <section class="container container--with-bg container--with-border container--shadow-md">
+          <div class="layout--constrained">
+            <h2>Typography</h2>
+            <hr />
+
+            <h1>Heading One</h1>
+            <h2>Heading Two</h2>
+            <h3>Heading Three</h3>
+            <h4>Heading Four</h4>
+            <h5>Heading Five</h5>
+            <h6>Heading Six</h6>
+
+            <p>
+              This is a standard paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              <a href="https://">Here is an inline link!</a> Typography establishes hierarchy, readability, and tone.
+            </p>
+
+            <p><a href="https://">Default link</a></p>
+
+            <p><a href="#">Visited link</a></p>
+
+            <p>
+              Here is
+              <strong>bold text</strong>, <em>italic text</em>, <mark>highlighted text</mark>,
+              <small>small text</small>, <del>deleted text</del>, and <code>code</code>.
+            </p>
+
+            <details>
+              <summary>Accordion</summary>
+              <div class="details__content">Here is the accordion content.</div>
+            </details>
+
+            <blockquote>
+              <p>
+                “The best interfaces disappear. Users shouldn’t think about the system — they should think about their
+                goals.”
+              </p>
+            </blockquote>
+            <cite>— UX research insight</cite>
+
+            <pre><code>const button = document.querySelector('.button');
+    function helloWorld() {
+    console.log("Hello Design System");
+}</code></pre>
+
+            <ol>
+              <li>
+                Discover
+                <ol>
+                  <li>
+                    Research
+                    <ol>
+                      <li>User interviews</li>
+                      <li>Competitive analysis</li>
+                      <li>Journey mapping</li>
+                    </ol>
+                  </li>
+                  <li>Gather requirements</li>
+                  <li>Identify opportunities</li>
+                </ol>
+              </li>
+            </ol>
+
+            <ul>
+              <li>
+                Design System
+                <ul>
+                  <li>Color tokens</li>
+                  <li>Typography scale</li>
+                  <li>
+                    Component patterns
+                    <ul>
+                      <li>Variants</li>
+                      <li>States</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+            <ul class="list-reset">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Projects</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- BUTTONS -->
+        <section class="container container--with-bg container--with-border container--shadow-md">
+          <h2>Buttons</h2>
+          <div class="button-container">
+            <button class="btn--primary">Primary Button</button>
+            <button class="btn--secondary">Secondary Button</button>
+            <button class="btn--tertiary">Tertiary Button</button>
+            <button class="btn--primary" disabled>Disabled Button</button>
+          </div>
+          <div class="button-container">
+            <button class="btn--primary">Button with Icon →</button>
+            <button class="btn--secondary">Button with Icon →</button>
+            <button class="btn--tertiary">Button with Icon →</button>
+            <button class="btn--primary" disabled>Button with Icon →</button>
+          </div>
+          <div class="button-container">
+            <button class="btn--primary btn--xs">XS Button</button>
+            <button class="btn--primary btn--sm">SM Button</button>
+            <button class="btn--primary btn--md">MD Button</button>
+            <button class="btn--primary btn--lg">LG Button</button>
+            <button class="btn--primary btn--xl">XL Button</button>
+          </div>
+        </section>
+
+        <!-- TABLE -->
+        <section class="container container--with-bg container--with-border container--shadow-md">
+          <h2>Tables</h2>
+
+          <div class="table-wrapper">
+            <table>
+              <caption>
+                UX Project Metrics
+              </caption>
+
+              <thead>
+                <tr>
+                  <th>Project</th>
+                  <th>Status</th>
+                  <th>Designer</th>
+                  <th>Completion</th>
+                  <th>Launch Date</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <td>Design System</td>
+                  <td>Complete</td>
+                  <td>Megan Kuhn</td>
+                  <td>100%</td>
+                  <td>Jan 12, 2026</td>
+                </tr>
+
+                <tr>
+                  <td>Marketing Website Redesign</td>
+                  <td>In Progress</td>
+                  <td>Alex Chen</td>
+                  <td>68%</td>
+                  <td>Feb 18, 2026</td>
+                </tr>
+
+                <tr>
+                  <td>Customer Dashboard</td>
+                  <td>Planning</td>
+                  <td>Taylor Smith</td>
+                  <td>12%</td>
+                  <td>Mar 2, 2026</td>
+                </tr>
+
+                <tr>
+                  <td>
+                    This is an intentionally long project name to demonstrate how table cells wrap when there is more
+                    content than can fit comfortably on one line.
+                  </td>
+                  <td>On Hold</td>
+                  <td>Jordan Lee</td>
+                  <td>45%</td>
+                  <td>Apr 14, 2026</td>
+                </tr>
+
+                <tr>
+                  <td>Accessibility Audit</td>
+                  <td>Complete</td>
+                  <td>Sam Patel</td>
+                  <td>100%</td>
+                  <td>May 30, 2026</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <script type="module" src="/src/ts/main.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+@use "../abstracts/_mixins";
+
+*:focus,
+*:focus-visible {
+    @include mixins.focus;
+}
+
+*:disabled {
+    color: var(--color-disabled);
+}

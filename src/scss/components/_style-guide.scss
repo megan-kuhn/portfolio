@@ -1,0 +1,37 @@
+@use "../abstracts/_mixins";
+
+.color-grid {
+  @include mixins.list-reset;
+  display: grid;
+  gap: var(--grid-gap-sm);
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  margin: var(--space-md) 0 var(--space-lg);
+}
+
+.swatch {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3xs);
+  justify-content: center;
+
+  &__color {
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-3xs);
+    height: 3rem;
+    margin-bottom: var(--space-3xs);
+    width: 100%;
+  }
+
+  &__name {
+    font-family: var(--font-code);
+    font-size: var(--font-xs);
+    font-stretch: condensed;
+    font-weight: var(--font-medium);
+    text-transform: uppercase;
+  }
+
+  code {
+    font-size: var(--font-xs);
+    text-transform: uppercase;
+  }
+}
